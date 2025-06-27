@@ -1,0 +1,39 @@
+<!DOCTYPE html><html><head>
+    <title>Add User</title>
+    <link rel="icon" href="/img/thinkingTesterIcon.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        <h1>Add User</h1>
+        <p>Sign up to begin adding your contacts!</p>
+        <span id="error"></span>
+        <form id="add-user">
+            <p>
+                <input id="firstName" placeholder="First Name" style="">
+            </p>
+            <p>
+                <input id="lastName" placeholder="Last Name" style="">
+            </p>
+            <p>
+                <input id="email" placeholder="Email" style="">
+            </p>
+            <p>
+                <input id="password" type="password" placeholder="Password" style="">
+            </p>
+        </form>
+        <p>
+            <button id="submit" type="submit" form="add-user">Submit</button>
+            <button id="cancel" onclick="location.href='/login'">Cancel</button>
+        </p>  
+    </div>
+    <footer>
+        <p>Created by Kristin Jackvony, Copyright 2021 </p>
+        <img src="/img/thinkingTesterLogo.png">
+    </footer>
+    
+    <script src="/js/addUser.js"></script>
+
+
+</body></html>

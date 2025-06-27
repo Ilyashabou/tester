@@ -1,0 +1,29 @@
+<!DOCTYPE html><html><head>
+    <title>My Contacts</title>
+    <link rel="icon" href="/img/thinkingTesterIcon.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        <header>
+            <h1>Contact List</h1>
+            <button id="logout" class="logout" onclick="location.href='/logout'">Logout</button>
+        </header>
+        
+        
+        <p>Click on any contact to view the Contact Details</p>
+        <p>
+            <button id="add-contact" onclick="location.href='/addContact'">Add a New Contact</button>
+        </p>
+        <div class="contacts"><table class="contactTable"><thead class="contactTableHead"><tr><th>Name</th><th>Birthdate</th><th>Email</th><th>Phone</th><th>Address</th><th>City, State/Province, Postal Code</th><th>Country</th></tr></thead><tbody class="contactTable-Body"></tbody></table></div>   
+    </div>
+    <footer>
+        <p>Created by Kristin Jackvony, Copyright 2021 </p>
+        <img src="/img/thinkingTesterLogo.png">
+    </footer>
+    
+    <script src="/js/contactList.js"></script>
+
+
+<div id="login-success-message" style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); background-color: rgba(40, 167, 69, 0.9); color: white; padding: 10px 20px; border-radius: 5px; z-index: 9999; font-weight: bold;">Login Successful!</div></body></html>

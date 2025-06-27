@@ -1,0 +1,76 @@
+{
+  "test_id": "20250618_111508",
+  "timestamp": "2025-06-18 11:15:50",
+  "elements": [
+    {
+      "page_url": "https://thinking-tester-contact-list.herokuapp.com/login",
+      "element_type": "input",
+      "selector": "#email",
+      "description": "Email",
+      "success": true,
+      "is_working": true,
+      "error_message": null,
+      "screenshot_before": "C:\\Users\\ILYAS\\OneDrive\\Bureau\\tester 3\\generated_tests\\screenshots\\input_5_before_20250618_111519.png",
+      "screenshot_after": "C:\\Users\\ILYAS\\OneDrive\\Bureau\\tester 3\\generated_tests\\screenshots\\input_11_after_20250618_111520.png",
+      "page_change_detected": false,
+      "visual_change_detected": false,
+      "timestamp": "2025-06-18 11:15:20"
+    },
+    {
+      "page_url": "https://thinking-tester-contact-list.herokuapp.com/login",
+      "element_type": "input",
+      "selector": "#password",
+      "description": "Password",
+      "success": true,
+      "is_working": true,
+      "error_message": null,
+      "screenshot_before": "C:\\Users\\ILYAS\\OneDrive\\Bureau\\tester 3\\generated_tests\\screenshots\\input_42_before_20250618_111520.png",
+      "screenshot_after": "C:\\Users\\ILYAS\\OneDrive\\Bureau\\tester 3\\generated_tests\\screenshots\\input_48_after_20250618_111521.png",
+      "page_change_detected": false,
+      "visual_change_detected": false,
+      "timestamp": "2025-06-18 11:15:22"
+    },
+    {
+      "page_url": "https://thinking-tester-contact-list.herokuapp.com/login",
+      "element_type": "button",
+      "selector": "#submit",
+      "description": "Submit",
+      "success": true,
+      "is_working": true,
+      "error_message": null,
+      "screenshot_before": "C:\\Users\\ILYAS\\OneDrive\\Bureau\\tester 3\\generated_tests\\screenshots\\button_80_before_20250618_111522.png",
+      "screenshot_after": "C:\\Users\\ILYAS\\OneDrive\\Bureau\\tester 3\\generated_tests\\screenshots\\button_93_after_20250618_111525.png",
+      "page_change_detected": false,
+      "visual_change_detected": false,
+      "timestamp": "2025-06-18 11:15:25"
+    },
+    {
+      "page_url": "https://thinking-tester-contact-list.herokuapp.com/login",
+      "element_type": "button",
+      "selector": "#signup",
+      "description": "Sign up",
+      "success": true,
+      "is_working": true,
+      "error_message": null,
+      "screenshot_before": "C:\\Users\\ILYAS\\OneDrive\\Bureau\\tester 3\\generated_tests\\screenshots\\button_133_before_20250618_111525.png",
+      "screenshot_after": "C:\\Users\\ILYAS\\OneDrive\\Bureau\\tester 3\\generated_tests\\screenshots\\button_146_after_20250618_111529.png",
+      "page_change_detected": false,
+      "visual_change_detected": false,
+      "timestamp": "2025-06-18 11:15:29"
+    },
+    {
+      "page_url": "https://thinking-tester-contact-list.herokuapp.com/login",
+      "element_type": "link",
+      "selector": "a[href='https://documenter.getpostman.com/view/4012288/TzK2bEa8']:has-text('here')",
+      "description": "here",
+      "success": true,
+      "is_working": true,
+      "error_message": null,
+      "screenshot_before": "C:\\Users\\ILYAS\\OneDrive\\Bureau\\tester 3\\generated_tests\\screenshots\\link_187_before_20250618_111529.png",
+      "screenshot_after": "C:\\Users\\ILYAS\\OneDrive\\Bureau\\tester 3\\generated_tests\\screenshots\\link_200_after_20250618_111539.png",
+      "page_change_detected": false,
+      "visual_change_detected": false,
+      "timestamp": "2025-06-18 11:15:40"
+    }
+  ]
+}

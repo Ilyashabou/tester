@@ -1,0 +1,51 @@
+body {
+    padding-top: 20px;
+    background-color: #f8f9fa;
+}
+.container {
+    max-width: 900px;
+}
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.progress {
+    height: 25px;
+}
+.status-badge {
+    font-size: 1rem;
+}
+/* Initially hide result section, but JavaScript will remove this class */
+.result-section {
+    display: none;
+}
+.logo {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.features {
+    margin-top: 30px;
+}
+.feature-icon {
+    font-size: 2rem;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+#processLog {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.d-none {
+    display: none !important;
+}
+#testSummary {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
